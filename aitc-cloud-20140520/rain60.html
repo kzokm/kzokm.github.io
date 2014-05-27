@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="rain60.js"></script>
+    <link rel="stylesheet" href="rain60.css" />
+  </head>
+  <body>
+    <form action=''>
+      <input name="date" type="date" value="2014-04-30" />
+      <input name="time" type="time" value="00:00" step="600" />
+      <select name="datatype">
+        <option value="rain_10min">10分雨量</option>
+        <option value="rain_60min" selected>60分雨量</option>
+      </select>
+      <button name="load">Load</button>
+      <button name="play" class="player">▶</button>
+      <button name="stop" class="player hidden">■</button>
+    </form>
+    <div id="map"></div>
+  </body>
+</html>
