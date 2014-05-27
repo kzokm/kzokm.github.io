@@ -1,0 +1,3 @@
+[submodule "aitc-cloud-20140520"]
+	path = aitc-cloud-20140520
+	url = git@github.com:kzokm/aitc-cloud-20140520.git
